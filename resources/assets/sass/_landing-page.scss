@@ -106,34 +106,38 @@
 
 // Section 1
 
-.landing-section-1 {
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
-  box-shadow: 0 0 8px #eee;
+#landing-section-1 {
+  background-image: radial-gradient(circle, #2196f3, #000);
 }
 
 // Section 2
 
-.landing-section-2 {
-  background-color: #eee;
+#landing-section-2 {
+  background-color: #fff;
 }
 
 // Section 3
 
-.landing-section-3 {
-  background-color: #e5e5e5;
+#landing-section-3 {
+  background-color: transparent;
 }
 
 // Section 4
 
-.landing-section-4 {
+#landing-section-4 {
   background-color: #eee;
 }
 
 // Section 5
 
-.landing-section-5 {
+#landing-section-5 {
   background-color: #e5e5e5;
+}
+
+// Section 6
+
+#landing-section-6 {
+  background-color: #eee;
 }
 
 //

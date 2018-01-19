@@ -106,7 +106,7 @@ $progress-border-radius:        0 !default;
 
 // Close
 
-$close-font-size:             34px !default;
+$close-font-size:             2.125rem !default;
 $close-font-weight:           300 !default;
 
 //# Landing page variables ================================
@@ -116,7 +116,7 @@ $close-font-weight:           300 !default;
 //
 
 $landing-header-spacer-y:       4rem !default;
-$landing-header-min-height:     400px !default;
+$landing-header-min-height:     calc(100vh - 160px) !default;
 $landing-header-bg-color:       #333 !default;
 $landing-header-text-color:     #fff !default;
 
@@ -135,4 +135,27 @@ $landing-section-xl-spacer-y:  8rem !default;
 // Base style
 //
 
-// do stuff
+$admin-navbar-height:             5rem !default;
+$admin-sidebar-width:             230px !default;
+
+//# Auth page variables ==================================
+
+//
+// Form auth
+//
+
+$form-auth-padding:         15px !default;
+$form-auth-bg-color:        #fff !default;
+$form-auth-border-width:    1px !default;
+$form-auth-border-color:    #ddd !default;
+$form-auth-box-shadow:      0 0 1px rgba(0,0,0,.45) !default;
+
+// Sizes
+
+$form-auth-sm-max-width:    330px !default;
+$form-auth-md-max-width:    450px !default;
+$form-auth-lg-max-width:    600px !default;
+
+//# Content page variables ==================================
+
+// Do stuff

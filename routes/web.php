@@ -1,21 +1,29 @@
 <?php
 
 Route::get('/', function () {
-    return view('landing-page');
+    return view('pages.landing-page.index');
 });
 
 Route::get('/admin', function () {
-    return view('admin');
+    return view('pages.admin-page.home.index');
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/register', function () {
+    return view('pages.auth-page.register');
 });
 
-Route::get('/disclaimer', function () {
-    return view('disclaimer');
+Route::get('/login', function () {
+    return view('pages.auth-page.login');
 });
 
-Route::get('/terms-of-use', function () {
-    return view('terms-of-use');
+Route::get('/3-column-example', function () {
+    return view('pages.3-column-example.index');
+});
+
+Route::get('/2-column-left-example', function () {
+    return view('pages.2-column-left-example.index');
+});
+
+Route::get('/2-column-right-example', function () {
+    return view('pages.2-column-right-example.index');
 });
